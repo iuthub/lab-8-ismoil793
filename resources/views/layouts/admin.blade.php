@@ -13,9 +13,8 @@
     <link rel="stylesheet" href="{{ URL::to('css/styles.css') }}">
 </head>
 <body>
-@include('partials.header')
-<div class="container">
+@include('partials.admin-header')
+<div class="container-fluid">
     @yield('content')
 </div>
 </body>
-</html>
